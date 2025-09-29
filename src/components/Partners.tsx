@@ -234,15 +234,15 @@ export default function Partners() {
         EN: "Fishery cooperative located in Shimonoseki City, Japan: Facing challenges with mass occurrence of empty sea urchins due to rocky shore denudation and aquaculture, advancing local rocky shore denudation solutions and efficient aquaculture using MOTHER VEGETABLE."
       }),
       image: "/kuroi-fishery-DSW6ddl8.jpeg"
+    },
+    {
+      name: "MO",
+      description: t({
+        JP: "株式会社MOは、日本にていち早くマザーベジタブルを提供すべく、マーケティング調査、販売企画、改善点等を研究開発し、日本国内での販売戦略をサポートしています。",
+        EN: "MO Corporation conducts marketing research, sales planning, and R&D for improvements to provide Mother Vegetable early in Japan, supporting domestic sales strategies in Japan."
+      }),
+      image: "/mo_logo.png"
     }
-    // {
-    //   name: "MO",
-    //   description: t({
-    //     JP: "株式会社MOは、日本にていち早くマザーベジタブルを提供すべく、マーケティング調査、販売企画、改善点等を研究開発し、日本国内での販売戦略をサポートしています。",
-    //     EN: "MO Corporation conducts marketing research, sales planning, and R&D for improvements to provide Mother Vegetable early in Japan, supporting domestic sales strategies in Japan."
-    //   }),
-    //   image: "/mo_logo.jpg"
-    // }
   ]
 
   const universityPartners = [

@@ -85,7 +85,7 @@ directly connected to Mother Vegetable factories, providing core utilities.`
             </p>
             <div className="flex justify-center">
               <button
-                onClick={() => window.location.href = 'mailto:info@mothervegetables.com'}
+                onClick={(e) => e.preventDefault()}
                 className="bg-gradient-to-r from-green-400 to-green-700 hover:from-green-600 hover:to-green-800 text-white px-8 py-4 rounded-lg font-bold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-xl"
               >
                 {t({ JP: '登録する', EN: 'Register' })}
