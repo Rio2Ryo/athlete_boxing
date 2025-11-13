@@ -131,18 +131,18 @@ we offer the following three types of Mother Vegetable products:`
                   <p className="text-white mb-3 text-sm md:text-base">{t({ JP: '外部電力、化石燃料などCO2を排出するエネルギーを一切使用しなく、小さな地球を再現。', EN: 'Recreating a small Earth without relying on any CO₂-emitting energy sources, including external electricity or fossil fuels.' })}</p>
 
                   <p className="text-green-400 font-semibold text-sm md:text-base">{t({ JP: '③カーボンクレジットの試算表', EN: '③Carbon Credit Estimation Table' })}</p>
-                  <p className="text-white text-sm md:text-base">{t({ JP: 'SEF 1 unit / 26m x 16m x 10階建 は面積にすると約0.5 ヘクタール。', EN: 'SEF 1 unit / 26m x 16m x 10 layers has an area of approximately 0.5 hectares.' })}</p>
+                  <p className="text-white text-sm md:text-base">{t({ JP: 'SEF 1 unit / 26m x 16m x 10階建 は面積にすると約0.5 ヘクタール。', EN: 'SEF 1 unit / 26m x 16m x 10 layers has an area of about 0.5 hectares.' })}</p>
                 
                 <p className="leading-relaxed text-sm md:text-base whitespace-pre-line">
                     {t({
                       JP: `一般的な0.5ヘクタールの天然スギのCO2吸収量は年間約4ton\nSEFはその700倍のCO2吸収量により年間約2,800tonとなる。`,
-                      EN: `A typical 0.5 hectare natural cedar forest absorbs approximately 4 tons of CO2 per year\nSEF absorbs 700 times more CO2, resulting in approximately 2,800 tons per year.`
+                      EN: `A typical 0.5 hectare natural cedar forest absorbs about 4 tons of CO2 per year\nSEF absorbs 700 times more CO2, resulting in about 2,800 tons per year.`
                     })}
                   </p>
                   <p className="leading-relaxed text-sm md:text-base whitespace-pre-line">
                     {t({
                       JP: `一般的なカーボンクレジットの価格は1tonあたり約4,000円\nSEFは2,800ton x 4,000円 = 11,200,000円 / 年 の収益性がある。`,
-                      EN: `The typical carbon credit price is approximately 25.8 USD per ton\nSEF has profitability of 2,800 tons x 25.8 USD = 72,240 USD / year.`
+                      EN: `The typical carbon credit price is about 25.8 USD per ton\nSEF has profitability of 2,800 tons x 25.8 USD = 72,240 USD / year.`
                     })}
                   </p>
 
