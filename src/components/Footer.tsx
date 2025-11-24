@@ -19,7 +19,7 @@ export default function Footer() {
 
   return (
     <footer className="bg-black">
-       <div className="bg-gray-900/50 backdrop-blur-md border border-green-500/20 rounded-xl p-8 mb-16 mx-auto max-w-[95%]">
+       <div className="bg-gray-900/50 backdrop-blur-md border border-green-500/20 rounded-xl px-8 py-14 mb-16 mx-auto max-w-[95%]">
         {/* Logo */}
         <div className="flex justify-center mb-4">
           <Image
@@ -39,28 +39,28 @@ export default function Footer() {
 
         {/* Countries Grid */}
         <div className="grid grid-cols-2 md:grid-cols-4 gap-[4.5rem] mx-auto text-center">
-          <div className="text-[#25C760] text-base md:text-lg font-medium">Japan</div>
-          <div className="text-[#25C760] text-base md:text-lg font-medium">Switzerland</div>
-          <div className="text-[#25C760] text-base md:text-lg font-medium">Malaysia</div>
-          <div className="text-[#25C760] text-base md:text-lg font-medium">Thailand</div>
+          <div className="text-[#25C760] text-base md:text-xl font-medium">Japan</div>
+          <div className="text-[#25C760] text-base md:text-xl font-medium">Switzerland</div>
+          <div className="text-[#25C760] text-base md:text-xl font-medium">Malaysia</div>
+          <div className="text-[#25C760] text-base md:text-xl font-medium">Thailand</div>
 
-          <div className="text-[#25C760] text-base md:text-lg font-medium">Germany</div>
-          <div className="text-[#25C760] text-base md:text-lg font-medium">USA</div>
-          <div className="text-[#25C760] text-base md:text-lg font-medium">South Korea</div>
-          <div className="text-[#25C760] text-base md:text-lg font-medium">United Kingdom</div>
+          <div className="text-[#25C760] text-base md:text-xl font-medium">Germany</div>
+          <div className="text-[#25C760] text-base md:text-xl font-medium">USA</div>
+          <div className="text-[#25C760] text-base md:text-xl font-medium">South Korea</div>
+          <div className="text-[#25C760] text-base md:text-xl font-medium">United Kingdom</div>
 
-          <div className="text-[#25C760] text-base md:text-lg font-medium">Singapore</div>
-          <div className="text-[#25C760] text-base md:text-lg font-medium">Mongolia</div>
-          <div className="text-[#25C760] text-base md:text-lg font-medium">Italy</div>
-          <div className="text-[#25C760] text-base md:text-lg font-medium">Brazil</div>
+          <div className="text-[#25C760] text-base md:text-xl font-medium">Singapore</div>
+          <div className="text-[#25C760] text-base md:text-xl font-medium">Mongolia</div>
+          <div className="text-[#25C760] text-base md:text-xl font-medium">Italy</div>
+          <div className="text-[#25C760] text-base md:text-xl font-medium">Brazil</div>
 
-          <div className="text-[#25C760] text-base md:text-lg font-medium">Hong Kong</div>
-          <div className="text-[#25C760] text-base md:text-lg font-medium">Indonesia</div>
-          <div className="text-[#25C760] text-base md:text-lg font-medium">Australia</div>
-          <div className="text-[#25C760] text-base md:text-lg font-medium">France</div>
+          <div className="text-[#25C760] text-base md:text-xl font-medium">Hong Kong</div>
+          <div className="text-[#25C760] text-base md:text-xl font-medium">Indonesia</div>
+          <div className="text-[#25C760] text-base md:text-xl font-medium">Australia</div>
+          <div className="text-[#25C760] text-base md:text-xl font-medium">France</div>
 
-          <div className="text-[#25C760] text-base md:text-lg font-medium">Canada</div>
-          <div className="text-[#25C760] text-base md:text-lg font-medium">Peru</div>
+          <div className="text-[#25C760] text-base md:text-xl font-medium">Canada</div>
+          <div className="text-[#25C760] text-base md:text-xl font-medium">Peru</div>
         </div>
        </div>
       {/* Main Footer Content 
