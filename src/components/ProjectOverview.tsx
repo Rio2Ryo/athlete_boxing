@@ -201,7 +201,7 @@ we offer the following three types of Mother Vegetable products:`
 
                       <div className="w-full md:max-w-xs h-48 rounded-xl overflow-hidden shadow-lg">
                         <img
-                          src="/architect.png"
+                          src="/mv-factory-greenhouse2.png"
                           alt="MOTHER VEGETABLEファクトリー建物"
                           className="w-full h-full object-cover"
                         />
