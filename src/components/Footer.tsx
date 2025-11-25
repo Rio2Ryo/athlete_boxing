@@ -19,7 +19,7 @@ export default function Footer() {
 
   return (
     <footer className="bg-black">
-       <div className="container rounded-xl px-8 py-14 mb-1 mx-auto">
+       <div className="container rounded-xl px-8 pt-14 mb-1 mx-auto">
          {/* Decorative underline */}
         <div className="w-full h-1 bg-gradient-to-r from-transparent via-[#25C760] to-transparent mx-auto mb-16"></div>
         {/* Logo */}
@@ -37,7 +37,7 @@ export default function Footer() {
         <h2 className="text-xs md:text-sm font-bold text-[#25C760] text-center mb-8">Mother Vegetable Group</h2>
 
         {/* Countries Grid */}
-        <div className="grid grid-cols-9 grid-rows-2 gap-x-8 gap-y-6 mx-auto text-center">
+        <div className="grid grid-cols-9 grid-rows-2 gap-x-2 gap-y-4 mx-auto text-center">
           <div className="text-[#25C760] text-xs md:text-sm font-medium">Japan</div>
           <div className="text-[#25C760] text-xs md:text-sm font-medium">Switzerland</div>
           <div className="text-[#25C760] text-xs md:text-sm font-medium">Malaysia</div>
