@@ -13,7 +13,8 @@
       "Bash(git fetch:*)",
       "Bash(git checkout:*)",
       "Bash(gh pr create:*)",
-      "Bash(open https://github.com/Rio2Ryo/mazavege_chan/pull/new/fix/remove-platform-overview)"
+      "Bash(open https://github.com/Rio2Ryo/mazavege_chan/pull/new/fix/remove-platform-overview)",
+      "Bash(npm info:*)"
     ],
     "deny": [],
     "ask": []

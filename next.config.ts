@@ -1,11 +1,6 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* Turbopackを無効化 */
-  experimental: {
-    turbo: undefined,
-  },
-
   async redirects() {
     return [
       // mothervegetables.org（apex）→ www.mothervegetable.org
