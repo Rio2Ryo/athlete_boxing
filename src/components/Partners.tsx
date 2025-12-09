@@ -22,7 +22,7 @@ export default function Partners() {
         JP: "マレーシア政府の特別クラス・バイオテクノロジー企業として認定されており、バイオテクノロジー商業化の進歩のための実質的な財政的インセンティブ、税制優遇、制度的サポートへのアクセスを享受しています。",
         EN: "Certified as a special class biotechnology company by the Malaysian government, enjoying access to substantial financial incentives, tax benefits, and institutional support for advancing biotechnology commercialization."
       }),
-      image: "/bionexus_logo.png"
+      image: "/bionexus-DbMz1jYi.jpeg"
     },
     {
       name: "ASEAN",
