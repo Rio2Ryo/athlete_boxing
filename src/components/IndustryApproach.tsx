@@ -1,19 +1,52 @@
 'use client'
 
 export default function IndustryApproach() {
-  const certifications = [
-    { id: 1, src: '/partner_1.png', alt: '100% Organic' },
-    { id: 2, src: '/partner_2.png', alt: 'Certified Vegan' },
-    { id: 3, src: '/partner_3.png', alt: 'GMP Quality' },
-    { id: 4, src: '/partner_4.png', alt: 'Halal' },
-    { id: 5, src: '/partner_5.png', alt: 'HACCP' },
-    { id: 6, src: '/partner_6.png', alt: 'JFRL' },
-  ]
-
-  const trustItems = [
-    { label: 'Achieve', text: '厚生労働省からヒューマングレードの食品として認定されています。' },
-    { label: 'Confidence', text: '厚生労働省から化粧品や医薬部外品原料規格として認定されています。' },
-    { label: 'Forever', text: '農林水産省からペットフードグレードとして認定されています。' },
+  const products = [
+    {
+      id: 1,
+      video: '/product1.mp4',
+      title: 'Achieve',
+      subtitle: 'for Body',
+      label: "'TORIKOMU'",
+      description: '一度に48種類の栄養摂取',
+      features: [
+        '腸内環境を改善、全身の細胞が再生',
+        '便秘・睡眠改善、ダイエット効果',
+      ],
+      howToUse: "1スティックを飲み物や食事に'TORIKOMU'",
+      detailLink: '#',
+      shopLink: '#',
+    },
+    {
+      id: 2,
+      video: '/product2.mp4',
+      title: 'Confidence',
+      subtitle: 'for Skin',
+      label: "'MAZEKOMU'",
+      description: '肌に必要な栄養を直接届ける',
+      features: [
+        '肌のハリ・ツヤを改善',
+        'シミ・シワ予防、美白効果',
+      ],
+      howToUse: "化粧水や美容液に'MAZEKOMU'",
+      detailLink: '#',
+      shopLink: '#',
+    },
+    {
+      id: 3,
+      video: '/product3.mp4',
+      title: 'Forever',
+      subtitle: 'forستyle',
+      label: "'SURIKOMU'",
+      description: '頭皮と髪に栄養を浸透',
+      features: [
+        '頭皮環境を改善、発毛促進',
+        '髪のボリューム・ツヤを向上',
+      ],
+      howToUse: "シャンプーやトリートメントに'SURIKOMU'",
+      detailLink: '#',
+      shopLink: '#',
+    },
   ]
 
   return (
@@ -31,29 +64,75 @@ export default function IndustryApproach() {
           className="text-2xl md:text-5xl font-bold text-center mb-2 md:mb-4"
           style={{ color: '#25c760' }}
         >
-          Our Trust
+          Products
         </h2>
 
         <div className="w-32 md:w-48 h-1 md:h-1.5 bg-gradient-to-r from-transparent via-green-400 to-transparent mx-auto rounded-full mt-4 md:mt-6 mb-6 md:mb-12 opacity-80"></div>
 
-        {/* Certification Logos */}
-        <div className="flex justify-center items-center gap-2 md:gap-10 mb-6 md:mb-12">
-          {certifications.map((cert) => (
-            <img
-              key={cert.id}
-              src={cert.src}
-              alt={cert.alt}
-              className="h-10 md:h-24 w-auto object-contain"
-            />
-          ))}
-        </div>
+        {/* Product Cards */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-6">
+          {products.map((product) => (
+            <div
+              key={product.id}
+              className="rounded-lg p-4 md:p-6 flex flex-col"
+              style={{ border: '1px solid #25c760' }}
+            >
+              {/* Video */}
+              <div className="mb-4 rounded-lg overflow-hidden">
+                <video
+                  src={product.video}
+                  autoPlay
+                  loop
+                  muted
+                  playsInline
+                  className="w-full h-40 md:h-48 object-cover"
+                />
+              </div>
 
-        {/* Trust Text */}
-        <div className="space-y-3 md:space-y-1 text-center">
-          {trustItems.map((item, index) => (
-            <div key={index} className="text-[10px] md:text-base">
-              <p className="text-green-400 font-semibold md:inline md:mr-4">{item.label}</p>
-              <p className="text-gray-300 md:inline">{item.text}</p>
+              {/* Title & Subtitle */}
+              <h3 className="text-2xl md:text-3xl font-bold text-center" style={{ color: '#25c760' }}>
+                {product.title}
+              </h3>
+              <p className="text-gray-400 text-sm text-center mb-3">{product.subtitle}</p>
+
+              {/* Label & Description */}
+              <p className="text-red-400 font-semibold text-center text-sm">{product.label}</p>
+              <p className="text-gray-300 text-center text-xs md:text-sm mb-4">{product.description}</p>
+
+              {/* Features */}
+              <div className="space-y-2 mb-4">
+                {product.features.map((feature, idx) => (
+                  <p key={idx} className="text-gray-300 text-xs md:text-sm flex items-start">
+                    <span className="text-green-400 mr-2">✓</span>
+                    {feature}
+                  </p>
+                ))}
+              </div>
+
+              {/* How to use */}
+              <div className="mb-4">
+                <p className="text-green-400 font-semibold text-sm mb-1">How to use</p>
+                <p className="text-gray-300 text-xs md:text-sm flex items-start">
+                  <span className="text-green-400 mr-2">✓</span>
+                  {product.howToUse}
+                </p>
+              </div>
+
+              {/* Buttons */}
+              <div className="mt-auto space-y-3 text-center">
+                <a
+                  href={product.detailLink}
+                  className="block py-2 px-4 rounded text-sm text-green-400 border border-green-400 hover:bg-green-400/10 transition"
+                >
+                  詳細を見る
+                </a>
+                <a
+                  href={product.shopLink}
+                  className="inline-flex items-center text-green-400 text-sm hover:underline"
+                >
+                  ショップ <span className="ml-1">→</span>
+                </a>
+              </div>
             </div>
           ))}
         </div>

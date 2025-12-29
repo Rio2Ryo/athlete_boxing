@@ -5,6 +5,7 @@ import Header from '@/components/Header'
 import Hero from '@/components/Hero'
 import ProjectOverview from '@/components/ProjectOverview'
 import IndustryApproach from '@/components/IndustryApproach'
+import IndustryApproach2 from '@/components/IndustryApproach2'
 import TeamMembers from '@/components/TeamMembers'
 import Partners from '@/components/Partners'
 import TokenInfo from '@/components/TokenInfo'
@@ -31,6 +32,7 @@ export default function Home() {
         <Header />
         <Hero />
         <IndustryApproach />
+        <IndustryApproach2 />
         <ProjectOverview />
         {/*<TeamMembers />*/}
         {/*<Partners />*/}
