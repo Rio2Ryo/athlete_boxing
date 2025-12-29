@@ -50,7 +50,7 @@ export default function IndustryApproach() {
   ]
 
   return (
-    <section className="py-5 md:py-5 bg-black">
+    <section className="pb-5 pt-10 md:pb-5 md:pt-12 bg-black">
       <div
         className="mx-auto px-4 md:px-8 py-8 md:py-12 w-[97%] md:w-[90%]"
         style={{
@@ -106,7 +106,7 @@ export default function IndustryApproach() {
                   <p className="text-white text-[10px] md:text-sm mb-2 md:text-center">{product.description}</p>
 
                   {/* Features */}
-                  <div className="space-y-1 mb-2">
+                  <div className="space-y-1 mb-2 mt-5">
                     {product.features.map((feature, idx) => (
                       <p key={idx} className="text-white text-[10px] md:text-lg flex items-start">
                         <span className="text-green-400 mr-1 md:mr-2">✓</span>
