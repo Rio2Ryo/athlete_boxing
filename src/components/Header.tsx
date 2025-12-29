@@ -108,27 +108,48 @@ export default function Header() {
 
       {/* Mobile Menu Overlay */}
       {isMenuOpen && (
-        <div className="md:hidden absolute top-full left-0 right-0 bg-black/95 backdrop-blur-md border-b border-green-500/20">
-          <nav className="container mx-auto px-4 py-4">
-            <button
-              onClick={() => handleMenuClick('https://mothervegetable.com/')}
-              className="block w-full text-left px-4 py-4 text-[#4ade80] hover:text-green-600 transition-all duration-300 border-b border-gray-700"
-            >
-              Food
-            </button>
-            <button
-              onClick={() => handleMenuClick('https://mothervegetable.com/')}
-              className="block w-full text-left px-4 py-4 text-[#4ade80] hover:text-green-600 transition-all duration-300 border-b border-gray-700"
-            >
-              Cosmetic
-            </button>
-            <button
-              onClick={() => handleMenuClick('https://mothervegetable.com/')}
-              className="block w-full text-left px-4 py-4 text-[#4ade80] hover:text-green-600 transition-all duration-300 border-b border-gray-700"
-            >
-              Products
-            </button>
-          </nav>
+        <div className="md:hidden fixed inset-0 z-50" style={{ top: '0' }}>
+          {/* Background overlay */}
+          <div
+            className="absolute inset-0 bg-black/50"
+            onClick={() => setIsMenuOpen(false)}
+          />
+          {/* Slide-in menu from right */}
+          <div className="absolute top-0 right-0 h-full w-[80%] bg-black border-l-2 border-[#4ade80]">
+            {/* Close button */}
+            <div className="flex justify-end p-4">
+              <button
+                onClick={() => setIsMenuOpen(false)}
+                className="p-2 text-[#4ade80] hover:text-green-600 transition-all duration-300"
+                aria-label="Close menu"
+              >
+                <svg className="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+            {/* Menu items */}
+            <nav className="px-4 pt-8">
+              <button
+                onClick={() => handleMenuClick('https://mothervegetable.com/')}
+                className="block w-full text-left px-4 py-4 text-white hover:text-gray-300 transition-all duration-300 border-b border-gray-700"
+              >
+                Food
+              </button>
+              <button
+                onClick={() => handleMenuClick('https://mothervegetable.com/')}
+                className="block w-full text-left px-4 py-4 text-white hover:text-gray-300 transition-all duration-300 border-b border-gray-700"
+              >
+                Cosmetic
+              </button>
+              <button
+                onClick={() => handleMenuClick('https://mothervegetable.com/')}
+                className="block w-full text-left px-4 py-4 text-white hover:text-gray-300 transition-all duration-300 border-b border-gray-700"
+              >
+                Products
+              </button>
+            </nav>
+          </div>
         </div>
       )}
     </header>
