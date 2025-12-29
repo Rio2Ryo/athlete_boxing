@@ -35,7 +35,7 @@ export default function IndustryApproach() {
           Our Trust
         </h2>
 
-       <div className="w-40 md:w-48 h-1.5 bg-gradient-to-r from-transparent via-green-400 to-transparent mx-auto rounded-full mt-6 opacity-80"></div>
+       <div className="w-40 md:w-48 h-1.5 bg-gradient-to-r from-transparent via-green-400 to-transparent mx-auto rounded-full mt-6 mb-12 opacity-80"></div>
 
         {/* Certification Logos */}
         <div className="flex flex-wrap justify-center items-center gap-6 md:gap-10 mb-12">
@@ -44,7 +44,7 @@ export default function IndustryApproach() {
               key={cert.id}
               src={cert.src}
               alt={cert.alt}
-              className="h-16 md:h-20 w-auto object-contain"
+              className="h-20 md:h-24 w-auto object-contain"
             />
           ))}
         </div>
