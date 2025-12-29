@@ -61,7 +61,7 @@ export default function IndustryApproach() {
       >
         {/* Title */}
         <h2
-          className="text-2xl md:text-5xl font-bold text-center mb-2 md:mb-4"
+          className="text-xl md:text-5xl font-bold text-center mb-2 md:mb-4"
           style={{ color: '#25c760' }}
         >
           Products
@@ -132,7 +132,7 @@ export default function IndustryApproach() {
         </div>
 
         {/* Trust Text */}
-        <div className="space-y-3 md:space-y-2 text-center mt-8 md:mt-12">
+        <div className="space-y-0 md:space-y-1 text-center mt-8 md:mt-12">
           {trustItems.map((item, index) => (
             <div key={index} className="text-[10px] md:text-base">
               <span className="text-red-600 font-semibold mr-4">{item.label}</span>

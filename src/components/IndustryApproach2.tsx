@@ -28,7 +28,7 @@ export default function IndustryApproach() {
       >
         {/* Title */}
         <h2
-          className="text-2xl md:text-5xl font-bold text-center mb-2 md:mb-4"
+          className="text-xl md:text-5xl font-bold text-center mb-2 md:mb-4"
           style={{ color: '#25c760' }}
         >
           Our Trust
