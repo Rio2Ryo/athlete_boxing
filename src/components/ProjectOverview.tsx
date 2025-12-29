@@ -237,40 +237,9 @@ we offer the following three types of Mother Vegetable products:`
                       )}
                     </p>
 
-                    <p className="text-green-400 font-semibold text-sm md:text-base">
-                      {language === 'JP' ? (
-                        <>③カーボンオフセットの試算表</>
-                      ) : (
-                        <>③CO<sub>2</sub> offset Estimation Table</>
-                      )}
-                    </p>
-                    <p className="text-white text-sm md:text-base">{t({ JP: 'SEF 1 unit / 26m x 16m x 10階建 は面積にすると約0.5 ヘクタール。', EN: 'SEF 1 unit / 26m x 16m x 10 layers has an area of about 0.5 hectares.' })}</p>
+                    
 
-                    <p className="leading-relaxed text-sm md:text-base whitespace-pre-line">
-                      {language === 'JP' ? (
-                        <>一般的な0.5ヘクタールの天然スギのCO<sub>2</sub>吸収量は年間約4ton{'\n'}SEFはその700倍のCO<sub>2</sub>吸収量により年間約2,800tonとなる。</>
-                      ) : (
-                        <>A typical 0.5 hectare natural cedar forest absorbs about 4 tons of CO<sub>2</sub> per year{'\n'}SEF absorbs 700 times more CO<sub>2</sub>, resulting in about 2,800 tons per year.</>
-                      )}
-                    </p>
-                    <p className="leading-relaxed text-sm md:text-base whitespace-pre-line">
-                      {t({
-                        JP: `一般的なカーボンクレジットの価格は1tonあたり約4,000円\nSEFは2,800ton x 4,000円 = 11,200,000円 / 年 の収益を実現。\n世界では約514兆円規模のカーボンオフセット市場と予測されており、その需要に貢献する。`,
-                        EN: `The typical carbon credit price is about 25.8 USD per ton.\nSEF achieves revenue of 2,800 tons x 25.8 USD = 72,240 USD / year.\nThe global carbon offset market is projected to reach approximately 3,300 billion USD, and we contribute to meeting this demand.`
-                      })}
-                    </p>
-
-                    <div className="mt-4 text-center">
-                      <a
-                        href="/download/carbon-credit"
-                        className="text-white text-xs hover:text-green-400 transition-colors underline"
-                      >
-                        {t({
-                          JP: '金融機関向けカーボンクレジット試算表',
-                          EN: 'Carbon Credit Estimation Table for Financial Institutions'
-                        })}
-                      </a>
-                    </div>
+                    
                   </div>
                 </div>
 
