@@ -49,6 +49,12 @@ export default function IndustryApproach() {
     },
   ]
 
+  const trustItems = [
+    { label: 'TORIKOMU', text: 'means of having in Japanese as 「取り込む」' },
+    { label: 'MAZEKOMU', text: '厚生労働省から化粧品や医薬部外品原料規格として認定されています。means of having in Japanese as 「取り込む」' },
+    { label: 'SURIKOMU', text: 'means of rubbing in Japanese as 「擦り込む' },
+  ]
+
   return (
     <section className="py-10 md:py-20 bg-black">
       <div
