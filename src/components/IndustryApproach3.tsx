@@ -151,13 +151,13 @@ export default function IndustryApproach() {
                 {nutrient.nameMobile ? (
                   <>
                     {/* Mobile: 3 lines */}
-                    <span className="text-white text-[8px] font-medium leading-tight md:hidden">
+                    <span className="text-white text-[5px] font-medium leading-tight md:hidden">
                       {nutrient.nameMobile[0]}
                     </span>
-                    <span className="text-white text-[8px] font-medium leading-tight md:hidden">
+                    <span className="text-white text-[5px] font-medium leading-tight md:hidden">
                       {nutrient.nameMobile[1]}
                     </span>
-                    <span className="text-white text-[8px] md:hidden">
+                    <span className="text-white text-[5px] md:hidden">
                       {nutrient.count}
                     </span>
                     {/* Desktop: 2 lines */}
@@ -170,10 +170,10 @@ export default function IndustryApproach() {
                   </>
                 ) : (
                   <>
-                    <span className="text-white text-[8px] md:text-base font-medium leading-tight">
+                    <span className="text-white text-[5px] md:text-base font-medium leading-tight">
                       {nutrient.name}
                     </span>
-                    <span className="text-white text-[8px] md:text-base">
+                    <span className="text-white text-[5px] md:text-base">
                       {nutrient.count}
                     </span>
                   </>

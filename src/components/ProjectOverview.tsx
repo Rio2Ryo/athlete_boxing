@@ -32,7 +32,7 @@ export default function ProjectOverview() {
     setIsMuted2(nextMuted)
   }
   return (
-    <section id="project-overview" className="pt:12 md:pt-20 pb-6 md:pb-32 bg-black">
+    <section id="project-overview" className="pt-12 md:pt-20 pb-4 md:pb-32 bg-black">
       <div className="container mx-auto px-4">
         {/* Section Header */}
         <div className="text-center mb-16">
