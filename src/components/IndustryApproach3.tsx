@@ -63,7 +63,7 @@ export default function IndustryApproach() {
         </h2>
 
         {/* Subtitle */}
-        <p className="text-center text-white text-sm md:text-xl mb-4">
+        <p className="text-center text-white text-base md:text-xl mb-4">
           Achieve / Forever
         </p>
 
@@ -96,13 +96,13 @@ export default function IndustryApproach() {
         </div>
 
         {/* Nutrient Section Container */}
-        <div className="max-w-4xl mx-auto px-2 md:px-4">
+        <div className="max-w-3xl mx-auto px-2 md:px-4">
           {/* Nutrient Circles */}
           <div className="flex justify-between items-center mb-8 md:mb-12">
             {nutrients.map((nutrient, index) => (
               <div
                 key={index}
-                className="w-16 h-16 md:w-36 md:h-36 rounded-full flex flex-col items-center justify-center text-center"
+                className="w-16 h-16 md:w-32 md:h-32 rounded-full flex flex-col items-center justify-center text-center"
                 style={{ backgroundColor: '#4a9d7c' }}
               >
                 <span className="text-white text-[8px] md:text-base font-medium leading-tight">
