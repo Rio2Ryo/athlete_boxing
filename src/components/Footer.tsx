@@ -106,13 +106,13 @@ export default function Footer() {
             }
             requestAnimationFrame(animation)
           }}
-          className="block text-[clamp(8px,2vw,10px)] md:text-sm font-medium text-[#25C760] text-center mb-3 cursor-pointer"
+          className="block text-[clamp(8px,2vw,10px)] md:text-sm font-bold text-[#25C760] text-center mb-3 cursor-pointer"
         >
           Official Page
         </a>
 
         {/* Countries Grid - 3 rows on mobile, one line on desktop */}
-        <div className="grid grid-cols-6 md:hidden gap-x-1 gap-y-1 mx-auto text-center max-w-5xl">
+        <div className="grid grid-cols-6 md:hidden gap-x-1 gap-y-1 mx-auto text-center max-w-5xl font-bold">
           <div className="text-[#25C760] text-[clamp(8px,2vw,10px)] font-medium whitespace-nowrap tracking-tighter">Japan</div>
           <div className="text-[#25C760] text-[clamp(8px,2vw,10px)] font-medium whitespace-nowrap tracking-tighter">South Korea</div>
           <div className="text-[#25C760] text-[clamp(8px,2vw,10px)] font-medium whitespace-nowrap tracking-tighter">Hong Kong</div>
@@ -133,7 +133,7 @@ export default function Footer() {
           <div className="text-[#25C760] text-[clamp(8px,2vw,10px)] font-medium whitespace-nowrap tracking-tighter">Peru</div>
         </div>
         {/* Desktop: One line */}
-        <div className="hidden md:flex md:flex-wrap md:justify-center gap-x-3 gap-y-1 mx-auto text-center max-w-5xl">
+        <div className="hidden md:flex md:flex-wrap md:justify-center gap-x-3 gap-y-1 mx-auto text-center max-w-5xl font-bold">
           <div className="text-[#25C760] text-sm font-medium whitespace-nowrap">Japan</div>
           <div className="text-[#25C760] text-sm font-medium whitespace-nowrap">South Korea</div>
           <div className="text-[#25C760] text-sm font-medium whitespace-nowrap">Hong Kong</div>
