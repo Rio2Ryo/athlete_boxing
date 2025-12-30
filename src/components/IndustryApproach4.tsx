@@ -107,8 +107,8 @@ export default function IndustryApproach() {
       description: language === 'JP'
         ? 'ずっと治らなかったシミが、1ヶ月間塗り込んで使用すると徐々に薄くなり、大きなシミは気にならなくなりました。年を重ねても、Confidenceで適切にケアすれば改善するのを実感しました。'
         : 'The dark spots that had been prominent gradually faded, and my overall complexion became more even. I realized that even as we age, when we care for our skin properly, it truly responds.',
-      beforeImage: '/before6.png',
-      afterImage: '/after6.png',
+      beforeImage: '/before_7.png',
+      afterImage: '/after_7.png',
       beforeText: language === 'JP'
         ? '腕にある複数のシミがずっと治らなかった。'
         : 'Multiple dark spots on the arms and cheeks with an overall dull tone.',
@@ -121,8 +121,8 @@ export default function IndustryApproach() {
       description: language === 'JP'
         ? '処方クリームに混ぜて使い始めると、3日後にはひび割れがなくなって、赤みが目立たなくなってきました。かゆみも少なくなって、今はすごく快適です。これからも使い続けます。'
         : "I started using it together with my prescribed cream, and within three days the flakiness and redness noticeably improved. My skin felt smoother, less itchy, and much more comfortable. I'll definitely keep using it.",
-      beforeImage: '/before6.png',
-      afterImage: '/after6.png',
+      beforeImage: '/before_1.png',
+      afterImage: '/after_1.png',
       beforeText: language === 'JP'
         ? '乾燥による痒みやカサつきに悩んでいた。'
         : 'Visible dry patches and rough texture caused by dryness.',
@@ -135,8 +135,8 @@ export default function IndustryApproach() {
       description: language === 'JP'
         ? 'カサつきと痒みに悩んでいましたが、ステロイドを使うのは避けたかったので、Confidenceでケアをしていました。すると、わずか10日で痒みやカサつきが治まり、今はすごく快適そうです。'
         : 'We wanted to avoid using steroids, so we continued gentle daily care. In just 10 days, the flakiness and redness calmed down, and his skin looked much cleaner and smoother.',
-      beforeImage: '/before6.png',
-      afterImage: '/after6.png',
+      beforeImage: '/before_2.png',
+      afterImage: '/after_2.png',
       beforeText: language === 'JP'
         ? '乾燥による痒みやカサつきに悩んでいた。'
         : 'Visible dry patches and rough texture caused by dryness.',
@@ -149,8 +149,8 @@ export default function IndustryApproach() {
       description: language === 'JP'
         ? '硬水の刺激や乾燥で赤みが出ていましたが、ハンドクリームと一緒に使い始めると、たった2日で目に見えて症状が治まりました。'
         : 'Because his hands were easily irritated by hard water, we used this together with hand cream. Within just two days, the roughness faded and his skin became noticeably smoother.',
-      beforeImage: '/before6.png',
-      afterImage: '/after6.png',
+      beforeImage: '/before_5.png',
+      afterImage: '/after_5.png',
       beforeText: language === 'JP'
         ? '手首から手の甲にかけて目に見える赤みと乾燥。'
         : 'Visible redness and dryness from the wrist to the back of the hand.',
@@ -163,8 +163,8 @@ export default function IndustryApproach() {
       description: language === 'JP'
         ? '寝る前にConfidenceを塗り、翌朝確認すると、たった10時間なのに炎症がかなり抑えられて、赤みも少なくなっていて驚きました。'
         : "I had been struggling with redness and swelling that wouldn't go away. After applying it before bed, the dryness eased, and by morning the redness had noticeably calmed.",
-      beforeImage: '/before6.png',
-      afterImage: '/after6.png',
+      beforeImage: '/before_3.png',
+      afterImage: '/after_3.png',
       beforeText: language === 'JP'
         ? '怪我による炎症とかさぶた。'
         : 'Circular red area near the wrist with scabbing and visible inflammation.',
@@ -177,8 +177,8 @@ export default function IndustryApproach() {
       description: language === 'JP'
         ? '1ヶ月以上治らなかったやけどの痕が、2日も経たない間に傷跡が薄くなって、赤みも少なくなりました。'
         : "My burn hadn't healed for over a month, but after applying it at night, the dryness eased. Within 48 hours, the redness visibly calmed down and my skin felt more comfortable.",
-      beforeImage: '/before6.png',
-      afterImage: '/after6.png',
+      beforeImage: '/before_4.png',
+      afterImage: '/after_4.png',
       beforeText: language === 'JP'
         ? '1ヶ月間改善しなかった腕のやけどや赤み、乾燥に悩まされていた。'
         : "Persistent redness and dryness from an arm burn that hadn't improved for a month.",
