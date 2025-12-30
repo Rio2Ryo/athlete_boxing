@@ -96,13 +96,13 @@ export default function IndustryApproach() {
         </div>
 
         {/* Nutrient Section Container */}
-        <div className="max-w-3xl mx-auto px-2 md:px-4">
+        <div className="max-w-3xl mx-auto px-0 md:px-4">
           {/* Nutrient Circles */}
           <div className="flex justify-between items-center mb-8 md:mb-12">
             {nutrients.map((nutrient, index) => (
               <div
                 key={index}
-                className="w-16 h-16 md:w-32 md:h-32 rounded-full flex flex-col items-center justify-center text-center"
+                className="w-14 h-14 md:w-32 md:h-32 rounded-full flex flex-col items-center justify-center text-center"
                 style={{ backgroundColor: '#4a9d7c' }}
               >
                 <span className="text-white text-[8px] md:text-base font-medium leading-tight">
@@ -130,7 +130,7 @@ export default function IndustryApproach() {
         </div>
 
         {/* Categories Grid */}
-        <div className="grid grid-cols-2 gap-6 md:gap-10 mt-12 md:mt-16 px-4 md:px-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 mt-12 md:mt-16 px-4 md:px-12">
           {categories.map((category, index) => (
             <div key={index} className="flex items-start gap-3 md:gap-6">
               {/* Silhouette Image */}
