@@ -23,7 +23,7 @@ export default function AthleteImage() {
           {/* Athlete Info */}
           <div className="mt-6 text-center">
             <h3 className="text-lg md:text-2xl font-bold text-[#25c760] mb-1">
-              {language === 'JP' ? '長原 和可菜' : 'Wakana Nagahara'}
+              {language === 'JP' ? '永原 和可那' : 'Wakana Nagahara'}
             </h3>
             <p className="text-sm md:text-base text-green-400 font-semibold mb-3">
               {language === 'JP' ? 'バドミントン世界選手権 2連覇' : '2-TIME WORLD BADMINTON CHAMPION'}

@@ -9,6 +9,7 @@ import IndustryApproach from '@/components/IndustryApproach'
 import IndustryApproach2 from '@/components/IndustryApproach2'
 import IndustryApproach3 from '@/components/IndustryApproach3'
 import IndustryApproach4 from '@/components/IndustryApproach4'
+import AthleteTestimonial from '@/components/AthleteTestimonial'
 import TeamMembers from '@/components/TeamMembers'
 import Partners from '@/components/Partners'
 import TokenInfo from '@/components/TokenInfo'
@@ -36,6 +37,7 @@ export default function Home() {
         <Hero />
         <AthleteImage />
         <IndustryApproach />
+        <AthleteTestimonial />
         <IndustryApproach2 />
         <IndustryApproach3 />
         <IndustryApproach4 />
