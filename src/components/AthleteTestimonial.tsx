@@ -6,9 +6,19 @@ import { useLanguage } from '@/contexts/LanguageContext'
 export default function AthleteTestimonial() {
   const { language } = useLanguage()
 
-  const comment = language === 'JP'
-    ? '私は北海道・十勝で生まれ育ちました。自然豊かな故郷で過ごした時間が、今の私を作ってくれたと思っています。アスリートとして体が資本だからこそ、自然の力や地球の恵みに支えられてきたことを実感しています。このプロジェクトでは、故郷に「Small Earth Factory」を作ることができると聞いて、すぐに参加を決めました。35億年前から続く生命の力を持つマザーベジタブルを通じて、地球環境を守りながら、次世代のアスリートや若者たちが健康に成長できる未来を作りたい。世界で戦ってきた経験を、地元の子どもたちや地域の発展に還元できる。それが私にとって一番の喜びです。'
-    : "I was born and raised in Tokachi, Hokkaido. The time I spent in my hometown, surrounded by nature, shaped who I am today. As an athlete, my body is everything—and I've come to realize how much I've been supported by the power of nature and the blessings of the Earth. When I heard this project could bring a 'Small Earth Factory' to my hometown, I decided to join right away. Through Mother Vegetable, which carries the life force that has existed for 3.5 billion years, I want to protect our environment while creating a future where the next generation of athletes and young people can grow up healthy. Being able to give back to the local children and community development through my experience competing on the world stage—that's what brings me the greatest joy."
+  const paragraphs = language === 'JP'
+    ? [
+        '私は北海道で生まれ育ちました。自然豊かな故郷で過ごした時間が、今の私を作ってくれたと思っています。',
+        'アスリートとして体が資本だからこそ、自然の力や地球の恵みに支えられてきたことを実感しています。',
+        '35億年前から続く生命の力を持つマザーベジタブルを通じて、地球環境を守りながら、次世代のアスリートや若者たちが健康に成長できる未来を作りたい。',
+        '世界で戦ってきた経験を、地元の子どもたちや地域の発展に還元できる。それが私にとって一番の喜びです。'
+      ]
+    : [
+        'I was born and raised in Hokkaido. The time I spent in my hometown, surrounded by nature, shaped who I am today.',
+        "As an athlete, my body is everything—and I've come to realize how much I've been supported by the power of nature and the blessings of the Earth.",
+        'Through Mother Vegetable, which carries the life force that has existed for 3.5 billion years, I want to protect our environment while creating a future where the next generation of athletes and young people can grow up healthy.',
+        "Being able to give back to the local children and community development through my experience competing on the world stage—that's what brings me the greatest joy."
+      ]
 
   return (
     <section className="py-5 md:py-5 bg-black">
@@ -44,19 +54,23 @@ export default function AthleteTestimonial() {
             />
           </div>
           
-          {/* Comment */}
-          <div>
-            <p className="text-gray-300 text-xs md:text-sm leading-relaxed">
-              「{comment}」
+          {/* Comment - paragraphs */}
+          <div className="space-y-4">
+            {paragraphs.map((paragraph, index) => (
+              <p key={index} className="text-gray-300 text-xs md:text-sm leading-relaxed">
+                {paragraph}
+              </p>
+            ))}
+          </div>
+          
+          {/* Name */}
+          <div className="mt-6 text-right">
+            <p className="text-[#25c760] text-sm md:text-base font-semibold">
+              {language === 'JP' ? '永原 和可那' : 'Wakana Nagahara'}
             </p>
-            <div className="mt-4 text-right">
-              <p className="text-[#25c760] text-sm md:text-base font-semibold">
-                {language === 'JP' ? '永原 和可那' : 'Wakana Nagahara'}
-              </p>
-              <p className="text-gray-400 text-[10px] md:text-xs">
-                {language === 'JP' ? 'バドミントン世界選手権 2連覇' : '2-TIME WORLD BADMINTON CHAMPION'}
-              </p>
-            </div>
+            <p className="text-gray-400 text-[10px] md:text-xs">
+              {language === 'JP' ? 'バドミントン世界選手権 2連覇' : '2-TIME WORLD BADMINTON CHAMPION'}
+            </p>
           </div>
         </div>
       </div>
