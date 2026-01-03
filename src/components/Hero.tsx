@@ -154,8 +154,8 @@ export default function Hero() {
             <div
               style={{
                 position: 'absolute',
-                bottom: '5px',
-                right: '-10px',
+                bottom: '-5px',
+                right: '5px',
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
@@ -247,8 +247,8 @@ export default function Hero() {
             <div
               style={{
                 position: 'absolute',
-                bottom: '-20px',
-                right: '0px',
+                bottom: '-35px',
+                right: '20px',
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
