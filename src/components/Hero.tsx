@@ -102,8 +102,8 @@ export default function Hero() {
             {/* Circular Video */}
             <div
               style={{
-                width: '70px',
-                height: '70px',
+                width: '130px',
+                height: '130px',
                 position: 'relative',
               }}
             >
@@ -155,7 +155,7 @@ export default function Hero() {
               style={{
                 position: 'absolute',
                 bottom: '-15px',
-                right: '-10px',
+                right: '-25px',
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
@@ -171,7 +171,7 @@ export default function Hero() {
               />
               {/* Text below image */}
               <p className="text-[5px] text-white mt-0.5 text-center whitespace-nowrap">
-                <span>{t({ JP: '永原 和可那', EN: 'Wakana Nagahara' })}<br /></span>
+                <span className="text-[7px]">{t({ JP: '永原 和可那', EN: 'Wakana Nagahara' })}<br /></span>
                 {t({
                   JP: 'バドミントン世界選手権\n2連覇',
                   EN: '2-TIME WORLD\nBADMINTON CHAMPION'
@@ -262,7 +262,7 @@ export default function Hero() {
                 style={{ objectFit: 'cover' }}
               />
               <p className="text-[10px] text-white mt-1 text-center">
-                <span>{t({ JP: '永原 和可那', EN: 'Wakana Nagahara' })}<br /></span>
+                <span className="text-[12px]">{t({ JP: '永原 和可那', EN: 'Wakana Nagahara' })}<br /></span>
                 {t({
                   JP: 'バドミントン世界選手権\n2連覇',
                   EN: '2-TIME WORLD\nBADMINTON CHAMPION'

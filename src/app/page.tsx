@@ -35,7 +35,7 @@ export default function Home() {
       <main className="min-h-screen text-white relative">
         <Header />
         <Hero />
-        <AthleteImage />
+        {/*<AthleteImage />*/}
         <IndustryApproach />
         <AthleteTestimonial />
         <IndustryApproach2 />
