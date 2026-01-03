@@ -30,34 +30,32 @@ export default function AthleteTestimonial() {
 
         <div className="w-32 md:w-48 h-1 md:h-1.5 bg-gradient-to-r from-transparent via-green-400 to-transparent mx-auto rounded-full mt-4 md:mt-6 mb-6 md:mb-12 opacity-80"></div>
 
-        {/* Testimonial with photo */}
+        {/* Testimonial with image */}
         <div className="max-w-4xl mx-auto">
-          <div className="flex flex-col md:flex-row items-center md:items-start gap-4 md:gap-8">
-            {/* Photo */}
-            <div className="flex-shrink-0">
-              <Image
-                src="/nagahara_achieve.png"
-                alt={language === 'JP' ? '永原 和可那' : 'Wakana Nagahara'}
-                width={120}
-                height={150}
-                className="rounded-lg w-24 h-auto md:w-32"
-                style={{ objectFit: 'cover' }}
-              />
-            </div>
-            
-            {/* Comment */}
-            <div className="flex-1">
-              <p className="text-gray-300 text-xs md:text-sm leading-relaxed">
-                「{comment}」
+          {/* Image */}
+          <div className="mb-6 rounded-lg overflow-hidden">
+            <Image
+              src="/voice_image.png"
+              alt={language === 'JP' ? '故郷と自然への想い' : 'Connection to hometown and nature'}
+              width={800}
+              height={450}
+              className="w-full h-auto"
+              style={{ objectFit: 'cover' }}
+            />
+          </div>
+          
+          {/* Comment */}
+          <div>
+            <p className="text-gray-300 text-xs md:text-sm leading-relaxed">
+              「{comment}」
+            </p>
+            <div className="mt-4 text-right">
+              <p className="text-[#25c760] text-sm md:text-base font-semibold">
+                {language === 'JP' ? '永原 和可那' : 'Wakana Nagahara'}
               </p>
-              <div className="mt-4 text-right">
-                <p className="text-[#25c760] text-sm md:text-base font-semibold">
-                  {language === 'JP' ? '永原 和可那' : 'Wakana Nagahara'}
-                </p>
-                <p className="text-gray-400 text-[10px] md:text-xs">
-                  {language === 'JP' ? 'バドミントン世界選手権 2連覇' : '2-TIME WORLD BADMINTON CHAMPION'}
-                </p>
-              </div>
+              <p className="text-gray-400 text-[10px] md:text-xs">
+                {language === 'JP' ? 'バドミントン世界選手権 2連覇' : '2-TIME WORLD BADMINTON CHAMPION'}
+              </p>
             </div>
           </div>
         </div>
