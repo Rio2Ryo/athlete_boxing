@@ -154,27 +154,28 @@ export default function Hero() {
             <div
               style={{
                 position: 'absolute',
-                bottom: '-15px',
-                right: '-25px',
+                bottom: '5px',
+                right: '-10px',
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
+                maxWidth: '70px',
               }}
             >
               <Image
                 src="/nagahara_2.png"
                 alt="Nagahara"
-                width={20}
-                height={20}
+                width={18}
+                height={18}
                 className="rounded"
                 style={{ objectFit: 'cover' }}
               />
               {/* Text below image */}
-              <p className="text-[5px] text-white mt-0.5 text-center whitespace-nowrap">
-                <span className="text-[7px]">{t({ JP: '永原 和可那', EN: 'Wakana Nagahara' })}<br /></span>
+              <p className="text-[4px] text-white mt-0.5 text-center leading-tight">
+                <span className="text-[5px]">{t({ JP: '永原 和可那', EN: 'W. Nagahara' })}<br /></span>
                 {t({
-                  JP: 'バドミントン世界選手権\n2連覇',
-                  EN: '2-TIME WORLD\nBADMINTON CHAMPION'
+                  JP: '世界選手権2連覇',
+                  EN: '2x World Champ'
                 }).split('\n').map((line, i) => (
                   <span key={i}>{line}<br /></span>
                 ))}
