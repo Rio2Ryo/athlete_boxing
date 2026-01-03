@@ -165,8 +165,8 @@ export default function Hero() {
               <Image
                 src="/nagahara_2.png"
                 alt="Nagahara"
-                width={18}
-                height={18}
+                width={24}
+                height={24}
                 className="rounded"
                 style={{ objectFit: 'cover' }}
               />

@@ -10,13 +10,13 @@ export default function AthleteTestimonial() {
     ? [
         '私は北海道で生まれ育ちました。自然豊かな故郷で過ごした時間が、今の私を作ってくれたと思っています。',
         'アスリートとして体が資本だからこそ、自然の力や地球の恵みに支えられてきたことを実感しています。',
-        '35億年前から続く生命の力を持つマザーベジタブルを通じて、地球環境を守りながら、次世代のアスリートや若者たちが健康に成長できる未来を作りたい。',
+        'このプロジェクトの理念に共感し、参加を決めました。35億年前から続く生命の力を持つマザーベジタブルを通じて、地球環境を守りながら、次世代のアスリートや若者たちが健康に成長できる未来を作りたい。',
         '世界で戦ってきた経験を、地元の子どもたちや地域の発展に還元できる。それが私にとって一番の喜びです。'
       ]
     : [
         'I was born and raised in Hokkaido. The time I spent in my hometown, surrounded by nature, shaped who I am today.',
         "As an athlete, my body is everything—and I've come to realize how much I've been supported by the power of nature and the blessings of the Earth.",
-        'Through Mother Vegetable, which carries the life force that has existed for 3.5 billion years, I want to protect our environment while creating a future where the next generation of athletes and young people can grow up healthy.',
+        'I resonated with the vision of this project and decided to join. Through Mother Vegetable, which carries the life force that has existed for 3.5 billion years, I want to protect our environment while creating a future where the next generation of athletes and young people can grow up healthy.',
         "Being able to give back to the local children and community development through my experience competing on the world stage—that's what brings me the greatest joy."
       ]
 
