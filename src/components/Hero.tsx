@@ -88,23 +88,41 @@ export default function Hero() {
             />
           </div>
 
-          {/* Video, Image and Text Block - Positioned to the right */}
-          {/* Mobile version */}
-          {/* Previous position: top: '-80px', right: '-40px' */}
           <div
-            className="block md:hidden"
+            className="inline-block"
             style={{
-              position: 'absolute',
-              top: '180px',
-              right: '10px',
-              zIndex: 0,
+              background: 'linear-gradient(135deg, #4ade80 0%, #22c55e 50%, #16a34a 100%)',
+              WebkitBackgroundClip: 'text',
+              WebkitTextFillColor: 'transparent',
+              backgroundClip: 'text',
+              filter: 'drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3)) drop-shadow(0 2px 4px rgba(34, 197, 94, 0.2))',
+              position: 'relative',
+              zIndex: 1,
             }}
           >
+            <h1 className="text-sm sm:text-2xl md:text-3xl lg:text-3xl font-semibold leading-tight">
+              <div>MOTHER VEGETABLE PROJECT</div>
+            </h1>
+          </div>
+
+          <div className="w-40 md:w-48 h-1.5 bg-gradient-to-r from-transparent via-green-400 to-transparent mx-auto rounded-full mt-6 opacity-80"></div>
+
+        </div>
+
+        {/* Video and Profile Section - Between title and description */}
+        {/* Previous positions saved:
+            Mobile: top: '-80px', right: '-40px' (video block), bottom: '-5px', right: '5px' (photo)
+            PC: top: '-100px', right: '-70%' (video block), bottom: '-35px', right: '-20px' (photo)
+        */}
+        
+        {/* Mobile version */}
+        <div className="block md:hidden flex justify-center mb-6">
+          <div style={{ position: 'relative' }}>
             {/* Circular Video */}
             <div
               style={{
-                width: '130px',
-                height: '130px',
+                width: '100px',
+                height: '100px',
                 position: 'relative',
               }}
             >
@@ -148,16 +166,14 @@ export default function Hero() {
                   maskImage: 'radial-gradient(circle, transparent 45%, black 70%)',
                 }}
               />
-
             </div>
 
             {/* Nagahara image - bottom right of video */}
-            {/* Previous position: bottom: '-5px', right: '5px' */}
             <div
               style={{
                 position: 'absolute',
-                bottom: '-5px',
-                right: '5px',
+                bottom: '-10px',
+                right: '-30px',
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
@@ -167,14 +183,14 @@ export default function Hero() {
               <Image
                 src="/nagahara_2.png"
                 alt="Nagahara"
-                width={24}
-                height={24}
+                width={28}
+                height={28}
                 className="rounded"
                 style={{ objectFit: 'cover' }}
               />
               {/* Text below image */}
-              <p className="text-[4px] text-white mt-0.5 text-center leading-tight">
-                <span className="text-[5px]">{t({ JP: '永原 和可那', EN: 'W. Nagahara' })}<br /></span>
+              <p className="text-[5px] text-white mt-0.5 text-center leading-tight">
+                <span className="text-[6px]">{t({ JP: '永原 和可那', EN: 'W. Nagahara' })}<br /></span>
                 {t({
                   JP: '世界選手権2連覇',
                   EN: '2x World Champ'
@@ -184,23 +200,16 @@ export default function Hero() {
               </p>
             </div>
           </div>
+        </div>
 
-          {/* Desktop version */}
-          {/* Previous position: top: '-100px', right: '-70%' */}
-          <div
-            className="hidden md:block"
-            style={{
-              position: 'absolute',
-              top: '220px',
-              right: '5%',
-              zIndex: 0,
-            }}
-          >
+        {/* Desktop version */}
+        <div className="hidden md:flex justify-center mb-8">
+          <div style={{ position: 'relative' }}>
             {/* Circular Video */}
             <div
               style={{
-                width: '280px',
-                height: '280px',
+                width: '180px',
+                height: '180px',
                 position: 'relative',
               }}
             >
@@ -235,7 +244,7 @@ export default function Hero() {
               <div
                 style={{
                   position: 'absolute',
-                  inset: '-10px',
+                  inset: '-8px',
                   borderRadius: '50%',
                   pointerEvents: 'none',
                   backdropFilter: 'blur(8px)',
@@ -247,12 +256,11 @@ export default function Hero() {
             </div>
 
             {/* Nagahara image and text - bottom right */}
-            {/* Previous position: bottom: '-35px', right: '-20px' */}
             <div
               style={{
                 position: 'absolute',
-                bottom: '-180px',
-                right: '80px',
+                bottom: '-15px',
+                right: '-60px',
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
@@ -261,13 +269,13 @@ export default function Hero() {
               <Image
                 src="/nagahara_2.png"
                 alt="Nagahara"
-                width={50}
-                height={50}
+                width={45}
+                height={45}
                 className="rounded-lg"
                 style={{ objectFit: 'cover' }}
               />
-              <p className="text-[10px] text-white mt-1 text-center">
-                <span className="text-[12px]">{t({ JP: '永原 和可那', EN: 'Wakana Nagahara' })}<br /></span>
+              <p className="text-[9px] text-white mt-1 text-center">
+                <span className="text-[11px]">{t({ JP: '永原 和可那', EN: 'Wakana Nagahara' })}<br /></span>
                 {t({
                   JP: 'バドミントン世界選手権\n2連覇',
                   EN: '2-TIME WORLD\nBADMINTON CHAMPION'
@@ -277,31 +285,10 @@ export default function Hero() {
               </p>
             </div>
           </div>
-
-          <div
-            className="inline-block"
-            style={{
-              background: 'linear-gradient(135deg, #4ade80 0%, #22c55e 50%, #16a34a 100%)',
-              WebkitBackgroundClip: 'text',
-              WebkitTextFillColor: 'transparent',
-              backgroundClip: 'text',
-              filter: 'drop-shadow(0 4px 8px rgba(0, 0, 0, 0.3)) drop-shadow(0 2px 4px rgba(34, 197, 94, 0.2))',
-              position: 'relative',
-              zIndex: 1,
-            }}
-          >
-            <h1 className="text-sm sm:text-2xl md:text-3xl lg:text-3xl font-semibold leading-tight">
-              <div>MOTHER VEGETABLE PROJECT</div>
-            </h1>
-          </div>
-
-          <div className="w-40 md:w-48 h-1.5 bg-gradient-to-r from-transparent via-green-400 to-transparent mx-auto rounded-full mt-6 opacity-80"></div>
-
         </div>
 
-
         {/* Description - Not in Box */}
-        <div className="max-w-4xl mx-auto mb-2 mt-8 md:mt-16 px-4">
+        <div className="max-w-4xl mx-auto mb-2 px-4">
           <div className="space-y-3">
             <p className="text-xs md:text-xl text-[#4ade80] leading-relaxed">
               {t({
