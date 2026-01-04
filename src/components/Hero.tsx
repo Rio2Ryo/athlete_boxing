@@ -121,8 +121,8 @@ export default function Hero() {
             {/* Nagahara image - main circle */}
             <div
               style={{
-                width: '200px',
-                height: '200px',
+                width: '260px',
+                height: '260px',
                 position: 'relative',
               }}
             >
@@ -159,12 +159,12 @@ export default function Hero() {
               />
             </div>
 
-            {/* Video - top right of photo */}
+            {/* Video - top right of photo (moved down) */}
             <div
               style={{
                 position: 'absolute',
-                top: '-15px',
-                right: '-30px',
+                top: '10px',
+                right: '-35px',
                 width: '70px',
                 height: '70px',
                 borderRadius: '50%',
@@ -189,11 +189,16 @@ export default function Hero() {
               />
             </div>
           </div>
-          {/* Name and title below the photo */}
+          {/* Name, title and profile below the photo */}
           <div className="mt-3 text-center">
-            <p className="text-sm text-white leading-tight">
-              <span className="text-base font-medium">{t({ JP: '永原 和可那', EN: 'Wakana Nagahara' })}</span><br />
-              <span className="text-green-400 text-xs">{t({ JP: '世界選手権2連覇', EN: '2x World Champion' })}</span>
+            <p className="text-white leading-tight">
+              <span className="text-lg font-medium">{t({ JP: '永原 和可那', EN: 'Wakana Nagahara' })}</span><br />
+              <span className="text-green-400 text-sm">{t({ JP: '世界選手権2連覇', EN: '2x World Champion' })}</span>
+            </p>
+            <p className="text-[10px] text-gray-300 mt-2 leading-relaxed max-w-[280px]">
+              {t({ JP: '北海道十勝出身のバドミントン選手', EN: 'Badminton player from Tokachi, Hokkaido' })}<br />
+              {t({ JP: 'BWF世界選手権女子ダブルス2連覇（2018・2019）', EN: 'BWF World Championships Women\'s Doubles 2-time gold (2018, 2019)' })}<br />
+              {t({ JP: '「ナガマツペア」として東京・パリ五輪に連続出場', EN: 'Competed in Tokyo & Paris Olympics as "Naga-Matsu pair"' })}
             </p>
           </div>
         </div>
@@ -204,8 +209,8 @@ export default function Hero() {
             {/* Nagahara image - main circle */}
             <div
               style={{
-                width: '280px',
-                height: '280px',
+                width: '360px',
+                height: '360px',
                 position: 'relative',
               }}
             >
@@ -242,14 +247,14 @@ export default function Hero() {
               />
             </div>
 
-            {/* Video - top right of photo */}
+            {/* Video - top right of photo (moved down) */}
             <div
               style={{
                 position: 'absolute',
-                top: '-20px',
-                right: '-40px',
-                width: '90px',
-                height: '90px',
+                top: '15px',
+                right: '-50px',
+                width: '100px',
+                height: '100px',
                 borderRadius: '50%',
                 overflow: 'hidden',
               }}
@@ -272,11 +277,16 @@ export default function Hero() {
               />
             </div>
           </div>
-          {/* Name and title below the photo */}
+          {/* Name, title and profile below the photo */}
           <div className="mt-4 text-center">
-            <p className="text-base text-white leading-tight">
-              <span className="text-lg font-medium">{t({ JP: '永原 和可那', EN: 'Wakana Nagahara' })}</span><br />
-              <span className="text-green-400 text-sm">{t({ JP: 'バドミントン世界選手権 2連覇', EN: '2-Time World Badminton Champion' })}</span>
+            <p className="text-white leading-tight">
+              <span className="text-xl font-medium">{t({ JP: '永原 和可那', EN: 'Wakana Nagahara' })}</span><br />
+              <span className="text-green-400 text-base">{t({ JP: 'バドミントン世界選手権 2連覇', EN: '2-Time World Badminton Champion' })}</span>
+            </p>
+            <p className="text-xs text-gray-300 mt-3 leading-relaxed max-w-[400px]">
+              {t({ JP: '北海道十勝出身のバドミントン選手', EN: 'Badminton player from Tokachi, Hokkaido' })}<br />
+              {t({ JP: 'BWF世界選手権女子ダブルス2連覇（2018・2019）', EN: 'BWF World Championships Women\'s Doubles 2-time gold (2018, 2019)' })}<br />
+              {t({ JP: '「ナガマツペア」として東京・パリ五輪に連続出場', EN: 'Competed in Tokyo & Paris Olympics as "Naga-Matsu pair"' })}
             </p>
           </div>
         </div>
