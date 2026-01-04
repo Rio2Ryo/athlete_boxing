@@ -90,12 +90,13 @@ export default function Hero() {
 
           {/* Video, Image and Text Block - Positioned to the right */}
           {/* Mobile version */}
+          {/* Previous position: top: '-80px', right: '-40px' */}
           <div
             className="block md:hidden"
             style={{
               position: 'absolute',
-              top: '-80px',
-              right: '-40px',
+              top: '180px',
+              right: '10px',
               zIndex: 0,
             }}
           >
@@ -151,6 +152,7 @@ export default function Hero() {
             </div>
 
             {/* Nagahara image - bottom right of video */}
+            {/* Previous position: bottom: '-5px', right: '5px' */}
             <div
               style={{
                 position: 'absolute',
@@ -184,12 +186,13 @@ export default function Hero() {
           </div>
 
           {/* Desktop version */}
+          {/* Previous position: top: '-100px', right: '-70%' */}
           <div
             className="hidden md:block"
             style={{
               position: 'absolute',
-              top: '-100px',
-              right: '-70%',
+              top: '220px',
+              right: '5%',
               zIndex: 0,
             }}
           >
@@ -244,11 +247,12 @@ export default function Hero() {
             </div>
 
             {/* Nagahara image and text - bottom right */}
+            {/* Previous position: bottom: '-35px', right: '-20px' */}
             <div
               style={{
                 position: 'absolute',
-                bottom: '-35px',
-                right: '-20px',
+                bottom: '-180px',
+                right: '80px',
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
