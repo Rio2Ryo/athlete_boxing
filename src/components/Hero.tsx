@@ -248,7 +248,7 @@ export default function Hero() {
               style={{
                 position: 'absolute',
                 bottom: '-35px',
-                right: '20px',
+                right: '-20px',
                 display: 'flex',
                 flexDirection: 'column',
                 alignItems: 'center',
