@@ -196,7 +196,7 @@ export default function Hero() {
               <span className="text-green-400 text-sm">{t({ JP: 'キックボクシング団体', EN: 'Professional Kickboxing Organization' })}</span>
             </p>
             <p className="text-[10px] text-gray-300 mt-2 leading-relaxed max-w-[280px]">
-              {t({ JP: '「撃つ・蹴る・斬る」を軸に、立ち技格闘技の頂点を競うリング。', EN: 'A stand-up combat ring built on “Shoot, Kick, Slash”' })}<br />
+              {t({ JP: '「撃つ・蹴る・斬る」を軸に、立ち技格闘技の頂点を競うリング', EN: 'A stand-up combat ring built on “Shoot, Kick, Slash”' })}<br />
               {t({ JP: 'キックボクシングの可能性を広げ、激闘で感動と興奮を届ける', EN: 'Expanding kickboxing’s potential through intense battles' })}<br />
               {t({ JP: '環境配慮とスポーツ発展を両立するパートナーとして参画', EN: 'Partnering to balance environmental care and sports growth' })}
             </p>
@@ -284,7 +284,7 @@ export default function Hero() {
               <span className="text-green-400 text-base">{t({ JP: 'キックボクシング団体', EN: 'Professional Kickboxing Organization' })}</span>
             </p>
             <p className="text-xs text-gray-300 mt-3 leading-relaxed max-w-[400px]">
-              {t({ JP: '「撃つ・蹴る・斬る」を軸に、立ち技格闘技の頂点を競うリング。', EN: 'A stand-up combat ring built on "Shoot, Kick, Slash"' })}<br />
+              {t({ JP: '「撃つ・蹴る・斬る」を軸に、立ち技格闘技の頂点を競うリング', EN: 'A stand-up combat ring built on "Shoot, Kick, Slash"' })}<br />
               {t({ JP: 'キックボクシングの可能性を広げ、激闘で感動と興奮を届ける', EN: "Expanding kickboxing's potential through intense battles" })}<br />
               {t({ JP: '環境配慮とスポーツ発展を両立するパートナーとして参画', EN: 'Partnering to balance environmental care and sports growth' })}
             </p>
