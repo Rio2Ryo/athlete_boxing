@@ -15,7 +15,12 @@
       "Bash(gh pr create:*)",
       "Bash(open https://github.com/Rio2Ryo/mazavege_chan/pull/new/fix/remove-platform-overview)",
       "Bash(npm info:*)",
-      "Bash(taskkill:*)"
+      "Bash(taskkill:*)",
+      "Bash(npm ls:*)",
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(timeout /t 5 /nobreak)",
+      "Bash(cat:*)"
     ],
     "deny": [],
     "ask": []

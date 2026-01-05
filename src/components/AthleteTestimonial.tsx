@@ -8,16 +8,16 @@ export default function AthleteTestimonial() {
 
   const paragraphs = language === 'JP'
     ? [
-        '私は北海道で生まれ育ちました。自然豊かな故郷で過ごした時間が、今の私を作ってくれたと思っています。',
-        'アスリートとして体が資本だからこそ、自然の力や地球の恵みに支えられてきたことを実感しています。',
-        'このプロジェクトの理念に共感し、参加を決めました。35億年前から続く生命の力を持つマザーベジタブルを通じて、地球環境を守りながら、次世代のアスリートや若者たちが健康に成長できる未来を作りたい。',
-        '世界で戦ってきた経験を、地元の子どもたちや地域の発展に還元できる。それが私にとって一番の喜びです。'
+        'ボクシングは怪我と隣り合わせの競技で、打撲や擦り傷、切り傷は避けられません。',
+        'しかしマザーベジタブルに出会い、患部に使用することで、これまで経験したことのない速さで回復し、大きな驚きを感じました。',
+        'さらに摂取してみると、体調が整い、練習時のパフォーマンスも向上しました。その結果、選手一人ひとりの調子が上がり、チーム全体の士気や競技力も高まり、良い選手が育つ好循環が生まれています。',
+        '加えて、使うほど環境にも優しいという点も魅力で、キックボクシングに取り組みながら地球の改善にもつながる点に共感が広がり、多くの人に支持されています。'
       ]
     : [
-        'I was born and raised in Hokkaido. The time I spent in my hometown, surrounded by nature, shaped who I am today.',
-        "As an athlete, my body is everything—and I've come to realize how much I've been supported by the power of nature and the blessings of the Earth.",
-        'I resonated with the vision of this project and decided to join. Through Mother Vegetable, which carries the life force that has existed for 3.5 billion years, I want to protect our environment while creating a future where the next generation of athletes and young people can grow up healthy.',
-        "Being able to give back to the local children and community development through my experience competing on the world stage—that's what brings me the greatest joy."
+        'Boxing inevitably involves injuries such as bruises, scrapes, and cuts.',
+        "However, after discovering Mother Vegetable and applying it to injured areas, I was surprised by how quickly the wounds recovered.",
+        'When I also tried taking it internally, my physical condition improved and my training performance increased. As a result, each athlete’s condition improved, team morale and overall performance rose, and a positive cycle began in which better athletes are developed.',
+        "Another appeal is that it becomes more environmentally friendly the more it is used. The idea of continuing kickboxing while also contributing to the improvement of the Earth has resonated with many people."
       ]
 
   return (
@@ -45,7 +45,7 @@ export default function AthleteTestimonial() {
           {/* Image */}
           <div className="mb-6 rounded-lg overflow-hidden">
             <Image
-              src="/voice_image.png"
+              src="/voice.jpg"
               alt={language === 'JP' ? '故郷と自然への想い' : 'Connection to hometown and nature'}
               width={800}
               height={450}
@@ -66,10 +66,10 @@ export default function AthleteTestimonial() {
           {/* Name */}
           <div className="mt-6 text-right">
             <p className="text-[#25c760] text-sm md:text-base font-semibold">
-              {language === 'JP' ? '永原 和可那' : 'Wakana Nagahara'}
+              {language === 'JP' ? 'KNOCK OUT' : 'KNOCK OUT'}
             </p>
             <p className="text-gray-400 text-[10px] md:text-xs">
-              {language === 'JP' ? 'バドミントン世界選手権 2連覇' : '2-TIME WORLD BADMINTON CHAMPION'}
+              {language === 'JP' ? 'キックボクシング団体' : 'Professional Kickboxing Organization'}
             </p>
           </div>
         </div>

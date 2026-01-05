@@ -136,7 +136,7 @@ export default function Hero() {
                 }}
               >
                 <Image
-                  src="/nagahara_2_hd.png"
+                  src="/knockout_logo_official.jpg"
                   alt="Nagahara"
                   fill
                   style={{
@@ -172,7 +172,7 @@ export default function Hero() {
               }}
             >
               <video
-                src="/mv.mp4"
+                src="/Timeline_1.mov"
                 autoPlay
                 muted
                 loop
@@ -192,13 +192,13 @@ export default function Hero() {
           {/* Name, title and profile below the photo */}
           <div className="mt-3 text-center">
             <p className="text-white leading-tight">
-              <span className="text-lg font-medium">{t({ JP: '永原 和可那', EN: 'Wakana Nagahara' })}</span><br />
-              <span className="text-green-400 text-sm">{t({ JP: '世界選手権2連覇', EN: '2x World Champion' })}</span>
+              <span className="text-lg font-medium">{t({ JP: 'KNOCK OUT', EN: 'KNOCK OUT' })}</span><br />
+              <span className="text-green-400 text-sm">{t({ JP: 'キックボクシング団体', EN: 'Professional Kickboxing Organization' })}</span>
             </p>
             <p className="text-[10px] text-gray-300 mt-2 leading-relaxed max-w-[280px]">
-              {t({ JP: '北海道十勝出身のバドミントン選手', EN: 'Badminton player from Tokachi, Hokkaido' })}<br />
-              {t({ JP: 'BWF世界選手権女子ダブルス2連覇（2018・2019）', EN: 'BWF World Championships Women\'s Doubles 2-time gold (2018, 2019)' })}<br />
-              {t({ JP: '「ナガマツペア」として東京・パリ五輪に連続出場', EN: 'Competed in Tokyo & Paris Olympics as "Naga-Matsu pair"' })}
+              {t({ JP: '「撃つ・蹴る・斬る」を軸に、立ち技格闘技の頂点を競うリング。', EN: 'A stand-up combat ring built on “Shoot, Kick, Slash”' })}<br />
+              {t({ JP: 'キックボクシングの可能性を広げ、激闘で感動と興奮を届ける', EN: 'Expanding kickboxing’s potential through intense battles' })}<br />
+              {t({ JP: '環境配慮とスポーツ発展を両立するパートナーとして参画', EN: 'Partnering to balance environmental care and sports growth' })}
             </p>
           </div>
         </div>
@@ -224,7 +224,7 @@ export default function Hero() {
                 }}
               >
                 <Image
-                  src="/nagahara_2_hd.png"
+                  src="/knockout_logo_official.jpg"
                   alt="Nagahara"
                   fill
                   style={{
@@ -260,7 +260,7 @@ export default function Hero() {
               }}
             >
               <video
-                src="/mv.mp4"
+                src="/Timeline_1.mov"
                 autoPlay
                 muted
                 loop
@@ -280,13 +280,13 @@ export default function Hero() {
           {/* Name, title and profile below the photo */}
           <div className="mt-4 text-center">
             <p className="text-white leading-tight">
-              <span className="text-xl font-medium">{t({ JP: '永原 和可那', EN: 'Wakana Nagahara' })}</span><br />
-              <span className="text-green-400 text-base">{t({ JP: 'バドミントン世界選手権 2連覇', EN: '2-Time World Badminton Champion' })}</span>
+              <span className="text-xl font-medium">{t({ JP: 'KNOCK OUT', EN: 'KNOCK OUT' })}</span><br />
+              <span className="text-green-400 text-base">{t({ JP: 'キックボクシング団体', EN: 'Professional Kickboxing Organization' })}</span>
             </p>
             <p className="text-xs text-gray-300 mt-3 leading-relaxed max-w-[400px]">
-              {t({ JP: '北海道十勝出身のバドミントン選手', EN: 'Badminton player from Tokachi, Hokkaido' })}<br />
-              {t({ JP: 'BWF世界選手権女子ダブルス2連覇（2018・2019）', EN: 'BWF World Championships Women\'s Doubles 2-time gold (2018, 2019)' })}<br />
-              {t({ JP: '「ナガマツペア」として東京・パリ五輪に連続出場', EN: 'Competed in Tokyo & Paris Olympics as "Naga-Matsu pair"' })}
+              {t({ JP: '「撃つ・蹴る・斬る」を軸に、立ち技格闘技の頂点を競うリング。', EN: 'A stand-up combat ring built on "Shoot, Kick, Slash"' })}<br />
+              {t({ JP: 'キックボクシングの可能性を広げ、激闘で感動と興奮を届ける', EN: "Expanding kickboxing's potential through intense battles" })}<br />
+              {t({ JP: '環境配慮とスポーツ発展を両立するパートナーとして参画', EN: 'Partnering to balance environmental care and sports growth' })}
             </p>
           </div>
         </div>

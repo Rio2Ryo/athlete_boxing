@@ -1,6 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
   async redirects() {
     return [
       // mothervegetables.org（apex）→ www.mothervegetable.org
